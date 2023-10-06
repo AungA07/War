@@ -112,3 +112,5 @@ while True:
         del player_values[0]
         del computer_cards[0]
         del computer_values[0]
+    if len(player_cards) == 0:
+        break

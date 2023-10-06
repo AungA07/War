@@ -1,0 +1,92 @@
+card = '4♠'
+#change these to whatever the card in play is
+ccard = '7♠'
+
+card.split()
+
+suit = card[1]
+value = card[0]
+ccard.split()
+csuit = ccard[1]
+cvalue = ccard[0]
+
+
+visual_card = (f"┌─────────┐                        ┌─────────┐\n"
+               f"│{value}        │                        │{cvalue}        │\n"
+               f"│         │                        │         │\n"
+               f"│    {suit}    │           vs           │    {csuit}    │\n"
+               f"│         │                        │         │\n"
+               f"│       {value} │                        │       {cvalue} │\n"
+               f"└─────────┘                        └─────────┘\n")
+
+#tiebreaker
+
+card2 = '4♠'
+#change these to whatever the card in play is
+ccard2 = '7♠'
+
+card2.split()
+
+suit2 = card2[1]
+value2 = card2[0]
+ccard2.split()
+csuit2 = ccard2[1]
+cvalue2 = ccard2[0]
+
+tvisual_card = (f"┌─────────┐   ┌─────────┐             ┌─────────┐   ┌─────────┐\n"
+                f"│{value2}        │   │         │             │         │   │{cvalue2}        │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│    {suit2}    │   │         │     vs      │         │   │    {csuit2}    │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│       {value2} │   │         │             │         │   │       {cvalue2} │\n"
+                f"└─────────┘   └─────────┘             └─────────┘   └─────────┘\n")
+
+
+
+
+card3 = '4♠'
+#change these to whatever the card in play is
+ccard3 = '7♠'
+
+card3.split()
+
+suit3 = card3[1]
+value3 = card3[0]
+ccard3.split()
+csuit3 = ccard3[1]
+cvalue3 = ccard3[0]
+
+tvisual_card2 = (f"┌─────────┐   ┌─────────┐             ┌─────────┐   ┌─────────┐\n"
+                f"│{value3}        │   │         │             │         │   │{cvalue3}        │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│    {suit3}    │   │         │     vs      │         │   │    {csuit3}    │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│       {value3} │   │         │             │         │   │       {cvalue3} │\n"
+                f"└─────────┘   └─────────┘             └─────────┘   └─────────┘\n")
+
+
+
+card4 = '4♠'
+#change these to whatever the card in play is
+ccard4 = '7♠'
+
+card4.split()
+
+suit4 = card4[1]
+value4 = card4[0]
+ccard4.split()
+csuit4 = ccard4[1]
+cvalue4 = ccard4[0]
+
+tvisual_card3 = (f"┌─────────┐   ┌─────────┐             ┌─────────┐   ┌─────────┐\n"
+                f"│{value4}        │   │         │             │         │   │{cvalue4}        │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│    {suit4}    │   │         │     vs      │         │   │    {csuit4}    │\n"
+                f"│         │   │         │             │         │   │         │\n"
+                f"│       {value4} │   │         │             │         │   │       {cvalue4} │\n"
+                f"└─────────┘   └─────────┘             └─────────┘   └─────────┘\n")
+
+print(visual_card)
+print(tvisual_card)
+print(tvisual_card2)
+print(tvisual_card3)

@@ -9,15 +9,6 @@ p1_points = []
 p2_points = []
 card1 = [1]
 card2 = [2]
-if card1 > card2:
-    won_cards1.append(card1)
-    won_cards1.append(card2)
-if card2 > card1:
-    won_cards2.append(card1)
-    won_cards2.append(card2)
-else:
-    # tie later
-    pass
 
 
 # round 1

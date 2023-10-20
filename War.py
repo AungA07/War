@@ -1,4 +1,4 @@
-# Gage, Allan, Will, Quintaveon
+# Isaac, Jacob, Luis, Jackson
 import random
 
 # deck of cards
